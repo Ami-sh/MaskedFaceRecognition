@@ -1,4 +1,4 @@
-#MaskedFaceVerification
+# MaskedFaceVerification
 In this project, we verify masked and unmasked image of a person 'X', and return true if succesfully verified, false otherwise. We basically superimpose a constant lower half image of a face on both the masked and unmasked image of person 'X' and then use the models from deepface to verify. It works decently for images with straight faces but for titled faces, not so well.
 
 Problems with the model:
